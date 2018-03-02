@@ -1,0 +1,450 @@
+
+/* Class = "UIButton"; normalTitle = "空間・余裕"; ObjectID = "033-4V-FAw"; */
+"033-4V-FAw.normalTitle" = "空間・余裕";
+
+/* Class = "UIButton"; normalTitle = "話せます"; ObjectID = "0E4-qs-VbV"; */
+"0E4-qs-VbV.normalTitle" = "話せます";
+
+/* Class = "UIButton"; normalTitle = "ふれあい"; ObjectID = "11I-x0-VkB"; */
+"11I-x0-VkB.normalTitle" = "ふれあい";
+
+/* Class = "UIButton"; normalTitle = "親密さ"; ObjectID = "2Ge-7L-1ak"; */
+"2Ge-7L-1ak.normalTitle" = "親密さ";
+
+/* Class = "UIButton"; normalTitle = "おだやか"; ObjectID = "2q0-Sy-hMN"; */
+"2q0-Sy-hMN.normalTitle" = "おだやか";
+
+/* Class = "UILabel"; text = "話す内容は…"; ObjectID = "31W-2G-ju0"; */
+"31W-2G-ju0.text" = "話す内容は…";
+
+/* Class = "UIButton"; normalTitle = "おもいやり"; ObjectID = "3y8-lL-KiO"; */
+"3y8-lL-KiO.normalTitle" = "おもいやり";
+
+/* Class = "UILabel"; text = "遊び"; ObjectID = "46c-0P-Yen"; */
+"46c-0P-Yen.text" = "遊び";
+
+/* Class = "UIButton"; normalTitle = "探求"; ObjectID = "4UE-Sr-H3w"; */
+"4UE-Sr-H3w.normalTitle" = "探求";
+
+/* Class = "UIButton"; normalTitle = "うそじゃないこと"; ObjectID = "5b9-hl-o77"; */
+"5b9-hl-o77.normalTitle" = "うそじゃないこと";
+
+/* Class = "UIButton"; normalTitle = "安定"; ObjectID = "5dG-Ey-yYB"; */
+"5dG-Ey-yYB.normalTitle" = "安定";
+
+/* Class = "UILabel"; text = "相手が話しているときに質問(「それって○○？」)や評価(「最悪だね」)をして、話をさえぎらないようにしましょう"; ObjectID = "611-O9-4Si"; */
+"611-O9-4Si.text" = "相手が話しているときに質問(「それって○○？」)や評価(「最悪だね」)をして、話をさえぎらないようにしましょう";
+
+/* Class = "UILabel"; text = "意味"; ObjectID = "61R-U9-5Rw"; */
+"61R-U9-5Rw.text" = "意味";
+
+/* Class = "UIButton"; normalTitle = "聴けます"; ObjectID = "6Fe-OQ-dxy"; */
+"6Fe-OQ-dxy.normalTitle" = "聴けます";
+
+/* Class = "UIButton"; normalTitle = "一貫性"; ObjectID = "6Sq-dF-6cG"; */
+"6Sq-dF-6cG.normalTitle" = "一貫性";
+
+/* Class = "UIButton"; normalTitle = "見てもらう"; ObjectID = "6gl-wy-W6U"; */
+"6gl-wy-W6U.normalTitle" = "見てもらう";
+
+/* Class = "UILabel"; text = "受け取った人はOKを押してください。"; ObjectID = "71o-Fu-0q4"; */
+"71o-Fu-0q4.text" = "受け取った人はOKを押してください。";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "8OS-ww-a1G"; */
+"8OS-ww-a1G.normalTitle" = "次へ";
+
+/* Class = "UIButton"; normalTitle = "参加"; ObjectID = "8VB-IO-JWp"; */
+"8VB-IO-JWp.normalTitle" = "参加";
+
+/* Class = "UILabel"; text = "そのときどんな感情だったか"; ObjectID = "9EA-fN-5nC"; */
+"9EA-fN-5nC.text" = "そのときどんな感情だったか";
+
+/* Class = "UIButton"; normalTitle = "高め合うこと"; ObjectID = "9as-Pd-U4Q"; */
+"9as-Pd-U4Q.normalTitle" = "高め合うこと";
+
+/* Class = "UIButton"; normalTitle = "配慮・気遣い"; ObjectID = "AXz-gy-MaN"; */
+"AXz-gy-MaN.normalTitle" = "配慮・気遣い";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ark-He-xOC"; */
+"Ark-He-xOC.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "インスピレーション・直感"; ObjectID = "BFk-Fd-BXk"; */
+"BFk-Fd-BXk.normalTitle" = "インスピレーション・直感";
+
+/* Class = "UIButton"; normalTitle = "喜び"; ObjectID = "Be4-lQ-Mo1"; */
+"Be4-lQ-Mo1.normalTitle" = "喜び";
+
+/* Class = "UIButton"; normalTitle = "発見"; ObjectID = "Bmx-3A-ctl"; */
+"Bmx-3A-ctl.normalTitle" = "発見";
+
+/* Class = "UIButton"; normalTitle = "ポジティブな出来事"; ObjectID = "By0-gX-fhp"; */
+"By0-gX-fhp.normalTitle" = "ポジティブな出来事";
+
+/* Class = "UIButton"; normalTitle = "戻る"; ObjectID = "CA8-2i-aR0"; */
+"CA8-2i-aR0.normalTitle" = "戻る";
+
+/* Class = "UILabel"; text = "話の中から見えた「大切にしているもの」"; ObjectID = "CVb-CF-7sR"; */
+"CVb-CF-7sR.text" = "話の中から見えた「大切にしているもの」";
+
+/* Class = "UIButton"; normalTitle = "トップへ戻る"; ObjectID = "Cdc-Aq-tGl"; */
+"Cdc-Aq-tGl.normalTitle" = "トップへ戻る";
+
+/* Class = "UILabel"; text = "身体的幸福"; ObjectID = "Ckb-pG-oxd"; */
+"Ckb-pG-oxd.text" = "身体的幸福";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Cpx-9R-jgS"; */
+"Cpx-9R-jgS.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Cs6-D7-bqI"; */
+"Cs6-D7-bqI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CtO-ad-eOk"; */
+"CtO-ad-eOk.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "成長"; ObjectID = "DX3-9q-z0M"; */
+"DX3-9q-z0M.normalTitle" = "成長";
+
+/* Class = "UIButton"; normalTitle = "相互依存"; ObjectID = "Dri-FX-894"; */
+"Dri-FX-894.normalTitle" = "相互依存";
+
+/* Class = "UIButton"; normalTitle = "フリートーク"; ObjectID = "Dvw-WK-joC"; */
+"Dvw-WK-joC.normalTitle" = "フリートーク";
+
+/* Class = "UILabel"; text = "つながり"; ObjectID = "ECG-oP-cXO"; */
+"ECG-oP-cXO.text" = "つながり";
+
+/* Class = "UIButton"; normalTitle = "愛"; ObjectID = "ELT-4d-Hsi"; */
+"ELT-4d-Hsi.normalTitle" = "愛";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FKN-1M-hbA"; */
+"FKN-1M-hbA.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "愛情"; ObjectID = "FYl-l9-Fz9"; */
+"FYl-l9-Fz9.normalTitle" = "愛情";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GG3-Gc-N5q"; */
+"GG3-Gc-N5q.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "信頼"; ObjectID = "Gd1-yW-ZDn"; */
+"Gd1-yW-ZDn.normalTitle" = "信頼";
+
+/* Class = "UIButton"; normalTitle = "ユーモア"; ObjectID = "HY3-s7-iC2"; */
+"HY3-s7-iC2.normalTitle" = "ユーモア";
+
+/* Class = "UILabel"; text = "上記の組み合わせでよければ、聴き手の人に端末を渡してください。"; ObjectID = "HjZ-l9-pe4"; */
+"HjZ-l9-pe4.text" = "上記の組み合わせでよければ、聴き手の人に端末を渡してください。";
+
+/* Class = "UIButton"; normalTitle = "不安"; ObjectID = "Ilm-23-2gL"; */
+"Ilm-23-2gL.normalTitle" = "不安";
+
+/* Class = "UIButton"; normalTitle = "モヤモヤ"; ObjectID = "Imr-1g-KFi"; */
+"Imr-1g-KFi.normalTitle" = "モヤモヤ";
+
+/* Class = "UIButton"; normalTitle = "住まい"; ObjectID = "IvE-RR-X0V"; */
+"IvE-RR-X0V.normalTitle" = "住まい";
+
+/* Class = "UIButton"; normalTitle = "ワクワク"; ObjectID = "J0d-gi-Tbw"; */
+"J0d-gi-Tbw.normalTitle" = "ワクワク";
+
+/* Class = "UIButton"; normalTitle = "楽しみ"; ObjectID = "J5N-Yg-xBg"; */
+"J5N-Yg-xBg.normalTitle" = "楽しみ";
+
+/* Class = "UIButton"; normalTitle = "刺激"; ObjectID = "JaL-Xk-Vvd"; */
+"JaL-Xk-Vvd.normalTitle" = "刺激";
+
+/* Class = "UIButton"; normalTitle = "明晰さ"; ObjectID = "KEt-EI-WZ9"; */
+"KEt-EI-WZ9.normalTitle" = "明晰さ";
+
+/* Class = "UINavigationItem"; title = "進行状況"; ObjectID = "Khf-2l-ZaP"; */
+"Khf-2l-ZaP.title" = "進行状況";
+
+/* Class = "UIButton"; normalTitle = "はじめる"; ObjectID = "Lc1-37-Ac3"; */
+"Lc1-37-Ac3.normalTitle" = "はじめる";
+
+/* Class = "UIButton"; normalTitle = "戻る"; ObjectID = "LgR-yn-j3i"; */
+"LgR-yn-j3i.normalTitle" = "戻る";
+
+/* Class = "UILabel"; text = "そのときどんな感情だったか"; ObjectID = "Mbo-OJ-GAq"; */
+"Mbo-OJ-GAq.text" = "そのときどんな感情だったか";
+
+/* Class = "UILabel"; text = "どうしてこれを大切にしていると思ったのか。話のどんな要素から大切にしていると思ったのか。相手に話してあげましょう。"; ObjectID = "Mfy-vo-4Ot"; */
+"Mfy-vo-4Ot.text" = "どうしてこれを大切にしていると思ったのか。話のどんな要素から大切にしていると思ったのか。相手に話してあげましょう。";
+
+/* Class = "UIButton"; normalTitle = "学び"; ObjectID = "MpO-ma-VW3"; */
+"MpO-ma-VW3.normalTitle" = "学び";
+
+/* Class = "UIButton"; normalTitle = "共鳴・共振"; ObjectID = "Myb-wM-zN6"; */
+"Myb-wM-zN6.normalTitle" = "共鳴・共振";
+
+/* Class = "UIButton"; normalTitle = "いとおしい"; ObjectID = "NSB-6p-UK7"; */
+"NSB-6p-UK7.normalTitle" = "いとおしい";
+
+/* Class = "UIButton"; normalTitle = "うれしい"; ObjectID = "NT9-wS-rLj"; */
+"NT9-wS-rLj.normalTitle" = "うれしい";
+
+/* Class = "UILabel"; text = "この5つでよろしいですか？"; ObjectID = "NV1-V5-WWy"; */
+"NV1-V5-WWy.text" = "この5つでよろしいですか？";
+
+/* Class = "UIButton"; normalTitle = "安心"; ObjectID = "Nc3-6v-D09"; */
+"Nc3-6v-D09.normalTitle" = "安心";
+
+/* Class = "UIButton"; normalTitle = "仲間"; ObjectID = "NjD-nN-XoS"; */
+"NjD-nN-XoS.normalTitle" = "仲間";
+
+/* Class = "UIButton"; normalTitle = "交流"; ObjectID = "P3E-po-NHc"; */
+"P3E-po-NHc.normalTitle" = "交流";
+
+/* Class = "UIButton"; normalTitle = "秩序"; ObjectID = "PZk-GC-IM4"; */
+"PZk-GC-IM4.normalTitle" = "秩序";
+
+/* Class = "UIButton"; normalTitle = "意識"; ObjectID = "QSu-c6-Vo0"; */
+"QSu-c6-Vo0.normalTitle" = "意識";
+
+/* Class = "UIButton"; normalTitle = "終わり"; ObjectID = "Qca-K4-niN"; */
+"Qca-K4-niN.normalTitle" = "終わり";
+
+/* Class = "UILabel"; text = "自主・自立"; ObjectID = "Qem-fi-yie"; */
+"Qem-fi-yie.text" = "自主・自立";
+
+/* Class = "UIButton"; normalTitle = "仲間に入れてもらうこと"; ObjectID = "RaZ-ii-VPd"; */
+"RaZ-ii-VPd.normalTitle" = "仲間に入れてもらうこと";
+
+/* Class = "UIButton"; normalTitle = "イライラ"; ObjectID = "SQV-gC-gAW"; */
+"SQV-gC-gAW.normalTitle" = "イライラ";
+
+/* Class = "UIButton"; normalTitle = "協力"; ObjectID = "SnP-Fm-EEp"; */
+"SnP-Fm-EEp.normalTitle" = "協力";
+
+/* Class = "UIButton"; normalTitle = "気楽さ"; ObjectID = "SuP-Cy-7W0"; */
+"SuP-Cy-7W0.normalTitle" = "気楽さ";
+
+/* Class = "UIButton"; normalTitle = "安全"; ObjectID = "TIh-pb-U5L"; */
+"TIh-pb-U5L.normalTitle" = "安全";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "TQz-6P-Tcd"; */
+"TQz-6P-Tcd.normalTitle" = "次へ";
+
+/* Class = "UIButton"; normalTitle = "尊敬"; ObjectID = "Tqy-Tr-1UO"; */
+"Tqy-Tr-1UO.normalTitle" = "尊敬";
+
+/* Class = "UILabel"; text = "話し中"; ObjectID = "Upq-kZ-Z9Y"; */
+"Upq-kZ-Z9Y.text" = "話し中";
+
+/* Class = "UIButton"; normalTitle = "真実味"; ObjectID = "V44-Ll-J6s"; */
+"V44-Ll-J6s.normalTitle" = "真実味";
+
+/* Class = "UIButton"; normalTitle = "効率性"; ObjectID = "V8G-SV-rPJ"; */
+"V8G-SV-rPJ.normalTitle" = "効率性";
+
+/* Class = "UIButton"; normalTitle = "選び直す"; ObjectID = "VqL-qA-A2X"; */
+"VqL-qA-A2X.normalTitle" = "選び直す";
+
+/* Class = "UIButton"; normalTitle = "自発性"; ObjectID = "Vxf-Dg-g8J"; */
+"Vxf-Dg-g8J.normalTitle" = "自発性";
+
+/* Class = "UIButton"; normalTitle = "決定"; ObjectID = "X5w-St-JRy"; */
+"X5w-St-JRy.normalTitle" = "決定";
+
+/* Class = "UIButton"; normalTitle = "美"; ObjectID = "X8c-Bl-hxf"; */
+"X8c-Bl-hxf.normalTitle" = "美";
+
+/* Class = "UIButton"; normalTitle = "有効性"; ObjectID = "XAW-ua-P2U"; */
+"XAW-ua-P2U.normalTitle" = "有効性";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XWj-v1-LqD"; */
+"XWj-v1-LqD.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "自覚"; ObjectID = "Xnw-Ed-Gj1"; */
+"Xnw-Ed-Gj1.normalTitle" = "自覚";
+
+/* Class = "UIButton"; normalTitle = "理解すること"; ObjectID = "YRj-YM-H2T"; */
+"YRj-YM-H2T.normalTitle" = "理解すること";
+
+/* Class = "UIButton"; normalTitle = "頭を整理すること"; ObjectID = "YhB-S9-ApF"; */
+"YhB-S9-ApF.normalTitle" = "頭を整理すること";
+
+/* Class = "UIButton"; normalTitle = "所属意識"; ObjectID = "Yl0-NQ-t2c"; */
+"Yl0-NQ-t2c.normalTitle" = "所属意識";
+
+/* Class = "UINavigationItem"; title = "進行状況"; ObjectID = "Ymm-x0-Mj6"; */
+"Ymm-x0-Mj6.title" = "進行状況";
+
+/* Class = "UIButton"; normalTitle = "やさしい"; ObjectID = "Z1k-J8-Gx1"; */
+"Z1k-J8-Gx1.normalTitle" = "やさしい";
+
+/* Class = "UIButton"; normalTitle = "理解してもらう"; ObjectID = "ZfU-Pb-4Xl"; */
+"ZfU-Pb-4Xl.normalTitle" = "理解してもらう";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "a9y-v0-wCB"; */
+"a9y-v0-wCB.normalTitle" = "次へ";
+
+/* Class = "UIButton"; normalTitle = "独立"; ObjectID = "aPe-lv-wMy"; */
+"aPe-lv-wMy.normalTitle" = "独立";
+
+/* Class = "UIButton"; normalTitle = "整理整頓"; ObjectID = "bEl-be-C3E"; */
+"bEl-be-C3E.normalTitle" = "整理整頓";
+
+/* Class = "UILabel"; text = "Start Scene"; ObjectID = "bQp-FV-kGo"; */
+"bQp-FV-kGo.text" = "Start Scene";
+
+/* Class = "UIButton"; normalTitle = "そこに居る・在ること"; ObjectID = "bTs-gb-q4W"; */
+"bTs-gb-q4W.normalTitle" = "そこに居る・在ること";
+
+/* Class = "UIButton"; normalTitle = "共感"; ObjectID = "baj-Ny-CbM"; */
+"baj-Ny-CbM.normalTitle" = "共感";
+
+/* Class = "UIButton"; normalTitle = "悲しみ"; ObjectID = "cWH-VP-9XG"; */
+"cWH-VP-9XG.normalTitle" = "悲しみ";
+
+/* Class = "UIButton"; normalTitle = "認めてもらうこと"; ObjectID = "de6-AF-bb9"; */
+"de6-AF-bb9.normalTitle" = "認めてもらうこと";
+
+/* Class = "UIButton"; normalTitle = "食べ物"; ObjectID = "dht-u2-DyT"; */
+"dht-u2-DyT.normalTitle" = "食べ物";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "e5k-ip-H53"; */
+"e5k-ip-H53.normalTitle" = "次へ";
+
+/* Class = "UIButton"; normalTitle = "能力"; ObjectID = "eik-mW-8cO"; */
+"eik-mW-8cO.normalTitle" = "能力";
+
+/* Class = "UIButton"; normalTitle = "活動・運動"; ObjectID = "ekx-1v-Ebt"; */
+"ekx-1v-Ebt.normalTitle" = "活動・運動";
+
+/* Class = "UIButton"; normalTitle = "ネガティブな出来事"; ObjectID = "f5a-0v-7Gt"; */
+"f5a-0v-7Gt.normalTitle" = "ネガティブな出来事";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fW7-1Q-JsZ"; */
+"fW7-1Q-JsZ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "自己表現"; ObjectID = "fkO-wq-vV9"; */
+"fkO-wq-vV9.normalTitle" = "自己表現";
+
+/* Class = "UINavigationItem"; title = "進行状況"; ObjectID = "gPc-sy-mRb"; */
+"gPc-sy-mRb.title" = "進行状況";
+
+/* Class = "UIButton"; normalTitle = "しあわせ"; ObjectID = "gXE-eI-Im9"; */
+"gXE-eI-Im9.normalTitle" = "しあわせ";
+
+/* Class = "UIButton"; normalTitle = "命の祝福"; ObjectID = "gZe-Nh-WWX"; */
+"gZe-Nh-WWX.normalTitle" = "命の祝福";
+
+/* Class = "UIButton"; normalTitle = "平等"; ObjectID = "gho-OL-fXk"; */
+"gho-OL-fXk.normalTitle" = "平等";
+
+/* Class = "UIButton"; normalTitle = "希望"; ObjectID = "gvD-ac-3dS"; */
+"gvD-ac-3dS.normalTitle" = "希望";
+
+/* Class = "UILabel"; text = "平和"; ObjectID = "hTV-pW-iSz"; */
+"hTV-pW-iSz.text" = "平和";
+
+/* Class = "UIButton"; normalTitle = "身の安全"; ObjectID = "heo-gf-tB7"; */
+"heo-gf-tB7.normalTitle" = "身の安全";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "icv-xN-y9k"; */
+"icv-xN-y9k.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "創造性"; ObjectID = "jRz-UI-QTV"; */
+"jRz-UI-QTV.normalTitle" = "創造性";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jXX-Dw-cYR"; */
+"jXX-Dw-cYR.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "自由"; ObjectID = "jXe-gY-91D"; */
+"jXe-gY-91D.normalTitle" = "自由";
+
+/* Class = "UIButton"; normalTitle = "空気"; ObjectID = "jpI-Ae-Z0b"; */
+"jpI-Ae-Z0b.normalTitle" = "空気";
+
+/* Class = "UIButton"; normalTitle = "恥ずかしさ"; ObjectID = "jxo-5i-zFh"; */
+"jxo-5i-zFh.normalTitle" = "恥ずかしさ";
+
+/* Class = "UIButton"; normalTitle = "理解"; ObjectID = "kjQ-8j-3eG"; */
+"kjQ-8j-3eG.normalTitle" = "理解";
+
+/* Class = "UIButton"; normalTitle = "貢献・寄与すること"; ObjectID = "kzj-B4-ILt"; */
+"kzj-B4-ILt.normalTitle" = "貢献・寄与すること";
+
+/* Class = "UIButton"; normalTitle = "選択"; ObjectID = "lGq-lz-bWy"; */
+"lGq-lz-bWy.normalTitle" = "選択";
+
+/* Class = "UINavigationItem"; title = "進行状況"; ObjectID = "lw6-it-SPA"; */
+"lw6-it-SPA.title" = "進行状況";
+
+/* Class = "UIButton"; normalTitle = "後悔"; ObjectID = "mQV-k1-VJQ"; */
+"mQV-k1-VJQ.normalTitle" = "後悔";
+
+/* Class = "UIButton"; normalTitle = "それ以外"; ObjectID = "mjE-cG-7Zv"; */
+"mjE-cG-7Zv.normalTitle" = "それ以外";
+
+/* Class = "UIButton"; normalTitle = "気の置けなさ"; ObjectID = "nFv-DG-vHR"; */
+"nFv-DG-vHR.normalTitle" = "気の置けなさ";
+
+/* Class = "UIButton"; normalTitle = "性的表現"; ObjectID = "nZX-0m-lw3"; */
+"nZX-0m-lw3.normalTitle" = "性的表現";
+
+/* Class = "UIButton"; normalTitle = "調和"; ObjectID = "pCG-Dg-qaT"; */
+"pCG-Dg-qaT.normalTitle" = "調和";
+
+/* Class = "UIButton"; normalTitle = "イキイキ"; ObjectID = "q24-3S-EGe"; */
+"q24-3S-EGe.normalTitle" = "イキイキ";
+
+/* Class = "UIButton"; normalTitle = "知ってもらう"; ObjectID = "qVI-RX-KoJ"; */
+"qVI-RX-KoJ.normalTitle" = "知ってもらう";
+
+/* Class = "UIButton"; normalTitle = "挑戦"; ObjectID = "qVK-7c-VVa"; */
+"qVK-7c-VVa.normalTitle" = "挑戦";
+
+/* Class = "UIButton"; normalTitle = "水"; ObjectID = "rYc-sP-lvd"; */
+"rYc-sP-lvd.normalTitle" = "水";
+
+/* Class = "UIButton"; normalTitle = "コミュニティ"; ObjectID = "rvx-GA-bmy"; */
+"rvx-GA-bmy.normalTitle" = "コミュニティ";
+
+/* Class = "UIButton"; normalTitle = "支え・サポート"; ObjectID = "scJ-IR-Cep"; */
+"scJ-IR-Cep.normalTitle" = "支え・サポート";
+
+/* Class = "UIButton"; normalTitle = "コミュニケーション"; ObjectID = "tJo-zO-V25"; */
+"tJo-zO-V25.normalTitle" = "コミュニケーション";
+
+/* Class = "UIButton"; normalTitle = "誠実さ"; ObjectID = "thr-a0-fHX"; */
+"thr-a0-fHX.normalTitle" = "誠実さ";
+
+/* Class = "UIButton"; normalTitle = "休息・睡眠"; ObjectID = "u59-8U-O04"; */
+"u59-8U-O04.normalTitle" = "休息・睡眠";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uki-PO-aVD"; */
+"uki-PO-aVD.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "落ち込み"; ObjectID = "uof-Se-opH"; */
+"uof-Se-opH.normalTitle" = "落ち込み";
+
+/* Class = "UIButton"; normalTitle = "それ以外"; ObjectID = "v11-xr-hAw"; */
+"v11-xr-hAw.normalTitle" = "それ以外";
+
+/* Class = "UIButton"; normalTitle = "受け入れられること"; ObjectID = "v5F-K5-hV1"; */
+"v5F-K5-hV1.normalTitle" = "受け入れられること";
+
+/* Class = "UIButton"; normalTitle = "トップへ戻る"; ObjectID = "vCw-mZ-TEm"; */
+"vCw-mZ-TEm.normalTitle" = "トップへ戻る";
+
+/* Class = "UIButton"; normalTitle = "使い方"; ObjectID = "viF-WY-BFU"; */
+"viF-WY-BFU.normalTitle" = "使い方";
+
+/* Class = "UIButton"; normalTitle = "あたたかさ"; ObjectID = "xNS-z6-SRE"; */
+"xNS-z6-SRE.normalTitle" = "あたたかさ";
+
+/* Class = "UIButton"; normalTitle = "超越"; ObjectID = "xT9-tg-YqA"; */
+"xT9-tg-YqA.normalTitle" = "超越";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "zD1-vG-45X"; */
+"zD1-vG-45X.normalTitle" = "OK";
+
+/* Class = "UIButton"; normalTitle = "目的"; ObjectID = "zcG-yn-W3h"; */
+"zcG-yn-W3h.normalTitle" = "目的";
+
+/* Class = "UIButton"; normalTitle = "流れ"; ObjectID = "zoK-hy-HQw"; */
+"zoK-hy-HQw.normalTitle" = "流れ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zxw-f4-ueS"; */
+"zxw-f4-ueS.text" = "Label";

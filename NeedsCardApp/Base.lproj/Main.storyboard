@@ -6,6 +6,7 @@
     <dependencies>
         <deployment version="4096" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -78,8 +79,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdc-Aq-tGl">
-                                <rect key="frame" x="101" y="499" width="173" height="78"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdc-Aq-tGl">
+                                <rect key="frame" x="101" y="294.5" width="173" height="78"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="トップへ戻る"/>
                                 <connections>
@@ -91,17 +92,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Cdc-Aq-tGl" firstAttribute="top" secondItem="hiY-zZ-STa" secondAttribute="top" constant="479" id="HYh-TA-GCf"/>
-                            <constraint firstItem="Cdc-Aq-tGl" firstAttribute="leading" secondItem="hiY-zZ-STa" secondAttribute="leading" constant="101" id="Hgw-mD-6de"/>
-                            <constraint firstItem="hiY-zZ-STa" firstAttribute="bottom" secondItem="Cdc-Aq-tGl" secondAttribute="bottom" constant="90" id="noT-jY-gwG"/>
-                            <constraint firstItem="hiY-zZ-STa" firstAttribute="trailing" secondItem="Cdc-Aq-tGl" secondAttribute="trailing" constant="101" id="pw1-WO-2kZ"/>
+                            <constraint firstItem="Cdc-Aq-tGl" firstAttribute="leading" secondItem="4od-Ag-Fjn" secondAttribute="leadingMargin" constant="85" id="HTi-kc-bbW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cdc-Aq-tGl" secondAttribute="trailing" constant="85" id="NJf-SD-bZV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hiY-zZ-STa"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f9N-Up-OlH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1122" y="592"/>
+            <point key="canvasLocation" x="1431" y="629"/>
         </scene>
         <!--Tutorial View Controller-->
         <scene sceneID="zsI-FH-a2q">
@@ -604,40 +603,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="lYq-Cb-hjG">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="lYq-Cb-hjG">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GG3-Gc-N5q">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="133.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="127.5"/>
                                         <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icv-xN-y9k">
-                                        <rect key="frame" x="0.0" y="133.5" width="375" height="133.5"/>
+                                        <rect key="frame" x="0.0" y="127.5" width="375" height="112"/>
                                         <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上記の組み合わせでよければ、聴き手の人に端末を渡してください。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjZ-l9-pe4">
-                                        <rect key="frame" x="0.0" y="267" width="375" height="133"/>
+                                        <rect key="frame" x="0.0" y="239.5" width="375" height="127.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="受け取った人はOKを押してください。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71o-Fu-0q4">
-                                        <rect key="frame" x="0.0" y="400" width="375" height="133.5"/>
+                                        <rect key="frame" x="0.0" y="367" width="375" height="152.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qKw-qe-cwr">
-                                        <rect key="frame" x="0.0" y="533.5" width="375" height="133.5"/>
+                                        <rect key="frame" x="0.0" y="519.5" width="375" height="127.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LgR-yn-j3i">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="133.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="127.5"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="戻る"/>
                                                 <connections>
@@ -647,7 +646,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zD1-vG-45X">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="133.5"/>
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="127.5"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="OK"/>
                                                 <connections>
@@ -662,15 +661,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="HjZ-l9-pe4" firstAttribute="width" secondItem="ckn-MW-fr5" secondAttribute="width" id="NPu-9O-bfe"/>
-                            <constraint firstItem="71o-Fu-0q4" firstAttribute="width" secondItem="ckn-MW-fr5" secondAttribute="width" id="QSL-Tg-w2M"/>
-                            <constraint firstItem="qKw-qe-cwr" firstAttribute="width" secondItem="ckn-MW-fr5" secondAttribute="width" id="RFV-ks-ZQw"/>
-                            <constraint firstItem="lYq-Cb-hjG" firstAttribute="height" secondItem="ckn-MW-fr5" secondAttribute="height" id="UJ2-EZ-dV2"/>
-                            <constraint firstItem="lYq-Cb-hjG" firstAttribute="leading" secondItem="fHz-wV-jKa" secondAttribute="leading" id="Z55-iI-uqu"/>
-                            <constraint firstItem="icv-xN-y9k" firstAttribute="width" secondItem="ckn-MW-fr5" secondAttribute="width" id="bGB-Gi-qFV"/>
-                            <constraint firstItem="lYq-Cb-hjG" firstAttribute="top" secondItem="ckn-MW-fr5" secondAttribute="top" id="rh0-tu-vB2"/>
-                            <constraint firstItem="GG3-Gc-N5q" firstAttribute="width" secondItem="ckn-MW-fr5" secondAttribute="width" id="rz2-xB-zAL"/>
-                            <constraint firstItem="lYq-Cb-hjG" firstAttribute="width" secondItem="ckn-MW-fr5" secondAttribute="width" id="utI-mL-nKO"/>
+                            <constraint firstItem="lYq-Cb-hjG" firstAttribute="height" secondItem="fHz-wV-jKa" secondAttribute="height" id="SL1-we-dOd"/>
+                            <constraint firstItem="lYq-Cb-hjG" firstAttribute="width" secondItem="fHz-wV-jKa" secondAttribute="width" id="USM-la-WAi"/>
+                            <constraint firstItem="lYq-Cb-hjG" firstAttribute="top" secondItem="fHz-wV-jKa" secondAttribute="top" id="gME-C1-l7h"/>
+                            <constraint firstItem="lYq-Cb-hjG" firstAttribute="leading" secondItem="fHz-wV-jKa" secondAttribute="leading" id="tRb-eU-CE6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fHz-wV-jKa"/>
                     </view>
@@ -815,25 +809,25 @@
         <!--Needs Card View Controller-->
         <scene sceneID="xwV-m9-koS">
             <objects>
-                <viewController storyboardIdentifier="NeedsCardViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YKp-Eo-Zf2" customClass="NeedsCardViewController" customModule="NeedsCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NeedsCardViewController" modalTransitionStyle="crossDissolve" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YKp-Eo-Zf2" customClass="NeedsCardViewController" customModule="NeedsCardApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0vL-eL-0In">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Dha-rI-b3N">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="つながり" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECG-oP-cXO">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="37"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="X4W-ln-NQb">
-                                        <rect key="frame" x="0.0" y="37" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="X4W-ln-NQb">
+                                        <rect key="frame" x="0.0" y="36" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5F-K5-hV1">
-                                                <rect key="frame" x="0.0" y="0.0" width="173" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="178" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="受け入れられること">
@@ -845,7 +839,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYl-l9-Fz9">
-                                                <rect key="frame" x="178" y="0.0" width="38.5" height="52.5"/>
+                                                <rect key="frame" x="178" y="0.0" width="39.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="愛情">
@@ -856,7 +850,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="de6-AF-bb9">
-                                                <rect key="frame" x="221.5" y="0.0" width="153.5" height="52.5"/>
+                                                <rect key="frame" x="217.5" y="0.0" width="157.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83199999999999996" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="認めてもらうこと">
@@ -868,11 +862,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="d6R-mh-LwI">
-                                        <rect key="frame" x="0.0" y="89.5" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="d6R-mh-LwI">
+                                        <rect key="frame" x="0.0" y="87" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJo-zO-V25">
-                                                <rect key="frame" x="0.0" y="0.0" width="217" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="224.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="コミュニケーション">
@@ -883,7 +877,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnP-Fm-EEp">
-                                                <rect key="frame" x="222" y="0.0" width="48" height="52.5"/>
+                                                <rect key="frame" x="224.5" y="0.0" width="50.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="協力">
@@ -894,7 +888,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl0-NQ-t2c">
-                                                <rect key="frame" x="275" y="0.0" width="100" height="52.5"/>
+                                                <rect key="frame" x="275" y="0.0" width="100" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="所属意識">
@@ -906,11 +900,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kQv-BO-IIr">
-                                        <rect key="frame" x="0.0" y="142" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="kQv-BO-IIr">
+                                        <rect key="frame" x="0.0" y="138" width="375" height="50.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvx-GA-bmy">
-                                                <rect key="frame" x="0.0" y="0.0" width="154.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="160.5" height="50.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="コミュニティ">
@@ -921,7 +915,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NjD-nN-XoS">
-                                                <rect key="frame" x="159.5" y="0.0" width="52" height="52.5"/>
+                                                <rect key="frame" x="160.5" y="0.0" width="54" height="50.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="仲間">
@@ -932,7 +926,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFv-DG-vHR">
-                                                <rect key="frame" x="216.5" y="0.0" width="158.5" height="52.5"/>
+                                                <rect key="frame" x="214.5" y="0.0" width="160.5" height="50.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="気の置けなさ">
@@ -944,11 +938,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bjn-vq-gQO">
-                                        <rect key="frame" x="0.0" y="194.5" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="bjn-vq-gQO">
+                                        <rect key="frame" x="0.0" y="188.5" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3y8-lL-KiO">
-                                                <rect key="frame" x="0.0" y="0.0" width="128.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="133" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="おもいやり">
@@ -959,7 +953,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXz-gy-MaN">
-                                                <rect key="frame" x="133.5" y="0.0" width="154.5" height="52.5"/>
+                                                <rect key="frame" x="133" y="0.0" width="161" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="配慮・気遣い">
@@ -970,7 +964,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Sq-dF-6cG">
-                                                <rect key="frame" x="293" y="0.0" width="82" height="52.5"/>
+                                                <rect key="frame" x="294" y="0.0" width="81" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="一貫性">
@@ -982,11 +976,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rLe-5G-iSO">
-                                        <rect key="frame" x="0.0" y="247" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="rLe-5G-iSO">
+                                        <rect key="frame" x="0.0" y="239.5" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaZ-ii-VPd">
-                                                <rect key="frame" x="0.0" y="0.0" width="222" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="229" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="仲間に入れてもらうこと">
@@ -997,7 +991,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baj-Ny-CbM">
-                                                <rect key="frame" x="227" y="0.0" width="41" height="52.5"/>
+                                                <rect key="frame" x="229" y="0.0" width="42" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="共感">
@@ -1008,7 +1002,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Myb-wM-zN6">
-                                                <rect key="frame" x="273" y="0.0" width="102" height="52.5"/>
+                                                <rect key="frame" x="271" y="0.0" width="104" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="共鳴・共振">
@@ -1020,11 +1014,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="HPF-0p-hZz">
-                                        <rect key="frame" x="0.0" y="299.5" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="HPF-0p-hZz">
+                                        <rect key="frame" x="0.0" y="290.5" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dri-FX-894">
-                                                <rect key="frame" x="0.0" y="0.0" width="163" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="相互依存">
@@ -1035,7 +1029,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ELT-4d-Hsi">
-                                                <rect key="frame" x="168" y="0.0" width="66.5" height="52.5"/>
+                                                <rect key="frame" x="173.5" y="0.0" width="70.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="愛">
@@ -1046,7 +1040,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ge-7L-1ak">
-                                                <rect key="frame" x="239.5" y="0.0" width="135.5" height="52.5"/>
+                                                <rect key="frame" x="244" y="0.0" width="131" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="親密さ">
@@ -1058,11 +1052,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5DV-Fl-s5S">
-                                        <rect key="frame" x="0.0" y="352" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="5DV-Fl-s5S">
+                                        <rect key="frame" x="0.0" y="341.5" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9as-Pd-U4Q">
-                                                <rect key="frame" x="0.0" y="0.0" width="213.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="225" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="高め合うこと">
@@ -1073,7 +1067,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqy-Tr-1UO">
-                                                <rect key="frame" x="218.5" y="0.0" width="71" height="52.5"/>
+                                                <rect key="frame" x="225" y="0.0" width="75" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="尊敬">
@@ -1084,7 +1078,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nc3-6v-D09">
-                                                <rect key="frame" x="294.5" y="0.0" width="80.5" height="52.5"/>
+                                                <rect key="frame" x="300" y="0.0" width="75" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="安心">
@@ -1096,11 +1090,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SQA-g2-nm7">
-                                        <rect key="frame" x="0.0" y="404.5" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="SQA-g2-nm7">
+                                        <rect key="frame" x="0.0" y="392.5" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIh-pb-U5L">
-                                                <rect key="frame" x="0.0" y="0.0" width="65" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="68.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="安全">
@@ -1111,7 +1105,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dG-Ey-yYB">
-                                                <rect key="frame" x="70" y="0.0" width="65.5" height="52.5"/>
+                                                <rect key="frame" x="68.5" y="0.0" width="68" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="安定">
@@ -1122,7 +1116,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scJ-IR-Cep">
-                                                <rect key="frame" x="140.5" y="0.0" width="234.5" height="52.5"/>
+                                                <rect key="frame" x="136.5" y="0.0" width="238.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="支え・サポート">
@@ -1134,11 +1128,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xmG-Du-ITF">
-                                        <rect key="frame" x="0.0" y="457" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="xmG-Du-ITF">
+                                        <rect key="frame" x="0.0" y="443.5" width="375" height="50.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVI-RX-KoJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="121.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125.5" height="50.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="知ってもらう">
@@ -1149,7 +1143,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gl-wy-W6U">
-                                                <rect key="frame" x="126.5" y="0.0" width="101" height="52.5"/>
+                                                <rect key="frame" x="125.5" y="0.0" width="104" height="50.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="見てもらう">
@@ -1160,7 +1154,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfU-Pb-4Xl">
-                                                <rect key="frame" x="232.5" y="0.0" width="142.5" height="52.5"/>
+                                                <rect key="frame" x="229.5" y="0.0" width="145.5" height="50.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="理解してもらう">
@@ -1172,11 +1166,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gA6-Q4-lcY">
-                                        <rect key="frame" x="0.0" y="509.5" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="gA6-Q4-lcY">
+                                        <rect key="frame" x="0.0" y="494" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRj-YM-H2T">
-                                                <rect key="frame" x="0.0" y="0.0" width="166.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="理解すること">
@@ -1187,7 +1181,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gd1-yW-ZDn">
-                                                <rect key="frame" x="171.5" y="0.0" width="55.5" height="52.5"/>
+                                                <rect key="frame" x="173.5" y="0.0" width="58" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="信頼">
@@ -1198,7 +1192,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNS-z6-SRE">
-                                                <rect key="frame" x="232" y="0.0" width="143" height="52.5"/>
+                                                <rect key="frame" x="231.5" y="0.0" width="143.5" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="あたたかさ">
@@ -1210,11 +1204,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="NQc-0i-zeZ">
-                                        <rect key="frame" x="0.0" y="562" width="375" height="52.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="NQc-0i-zeZ">
+                                        <rect key="frame" x="0.0" y="545" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5b9-hl-o77">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="213" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="うそじゃないこと">
@@ -1225,7 +1219,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V44-Ll-J6s">
-                                                <rect key="frame" x="210" y="0.0" width="78" height="52.5"/>
+                                                <rect key="frame" x="213" y="0.0" width="81" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="真実味">
@@ -1236,7 +1230,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thr-a0-fHX">
-                                                <rect key="frame" x="293" y="0.0" width="82" height="52.5"/>
+                                                <rect key="frame" x="294" y="0.0" width="81" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="誠実さ">
@@ -1249,10 +1243,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="B6n-V2-QpU">
-                                        <rect key="frame" x="0.0" y="614.5" width="375" height="52.5"/>
+                                        <rect key="frame" x="0.0" y="596" width="375" height="51"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTs-gb-q4W">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="そこに居る・在ること">
@@ -1265,17 +1259,14 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="ECG-oP-cXO" firstAttribute="width" secondItem="Dha-rI-b3N" secondAttribute="width" id="2af-Yw-XQc"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Dha-rI-b3N" firstAttribute="height" secondItem="0vL-eL-0In" secondAttribute="height" id="bcc-px-gNT"/>
-                            <constraint firstItem="Dha-rI-b3N" firstAttribute="top" secondItem="0vL-eL-0In" secondAttribute="top" id="nBW-3F-f76"/>
-                            <constraint firstItem="Dha-rI-b3N" firstAttribute="width" secondItem="0vL-eL-0In" secondAttribute="width" id="neE-1I-gFy"/>
-                            <constraint firstItem="Dha-rI-b3N" firstAttribute="leading" secondItem="Umm-gB-CAX" secondAttribute="leading" id="zoL-zZ-SnV"/>
+                            <constraint firstItem="Dha-rI-b3N" firstAttribute="width" secondItem="Umm-gB-CAX" secondAttribute="width" id="HIW-5N-Tl1"/>
+                            <constraint firstItem="Dha-rI-b3N" firstAttribute="height" secondItem="Umm-gB-CAX" secondAttribute="height" id="LAE-dk-EG9"/>
+                            <constraint firstItem="Dha-rI-b3N" firstAttribute="leading" secondItem="Umm-gB-CAX" secondAttribute="leading" id="rPW-4e-XFN"/>
+                            <constraint firstItem="Dha-rI-b3N" firstAttribute="top" secondItem="Umm-gB-CAX" secondAttribute="top" id="ucX-nz-KN2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Umm-gB-CAX"/>
                     </view>
@@ -1376,19 +1367,19 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="uag-Yz-FEF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="遊び" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46c-0P-Yen">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="51.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Q9j-vU-goo">
-                                        <rect key="frame" x="0.0" y="51.5" width="375" height="73.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Q9j-vU-goo">
+                                        <rect key="frame" x="0.0" y="50" width="375" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be4-lQ-Mo1">
-                                                <rect key="frame" x="0.0" y="0.0" width="78.5" height="73.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="83" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="喜び">
@@ -1399,7 +1390,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HY3-s7-iC2">
-                                                <rect key="frame" x="83.5" y="0.0" width="156.5" height="73.5"/>
+                                                <rect key="frame" x="83" y="0.0" width="166.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="ユーモア">
@@ -1410,7 +1401,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5N-Yg-xBg">
-                                                <rect key="frame" x="245" y="0.0" width="130" height="73.5"/>
+                                                <rect key="frame" x="249.5" y="0.0" width="125.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="楽しみ">
@@ -1423,16 +1414,16 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="平和" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTV-pW-iSz">
-                                        <rect key="frame" x="0.0" y="125" width="375" height="51.5"/>
+                                        <rect key="frame" x="0.0" y="121" width="375" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9wN-wd-ii3">
-                                        <rect key="frame" x="0.0" y="176.5" width="375" height="73"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="9wN-wd-ii3">
+                                        <rect key="frame" x="0.0" y="171" width="375" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8c-Bl-hxf">
-                                                <rect key="frame" x="0.0" y="0.0" width="84.5" height="73"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="91.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="美">
@@ -1443,7 +1434,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3E-po-NHc">
-                                                <rect key="frame" x="89.5" y="0.0" width="104.5" height="73"/>
+                                                <rect key="frame" x="91.5" y="0.0" width="113" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="交流">
@@ -1454,7 +1445,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuP-Cy-7W0">
-                                                <rect key="frame" x="199" y="0.0" width="176" height="73"/>
+                                                <rect key="frame" x="204.5" y="0.0" width="170.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="気楽さ">
@@ -1466,11 +1457,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ve4-1E-ejy">
-                                        <rect key="frame" x="0.0" y="249.5" width="375" height="73"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Ve4-1E-ejy">
+                                        <rect key="frame" x="0.0" y="242" width="375" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gho-OL-fXk">
-                                                <rect key="frame" x="0.0" y="0.0" width="88" height="73"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="平等">
@@ -1481,7 +1472,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCG-Dg-qaT">
-                                                <rect key="frame" x="93" y="0.0" width="87.5" height="73"/>
+                                                <rect key="frame" x="94" y="0.0" width="93.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="調和">
@@ -1492,7 +1483,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEl-be-C3E">
-                                                <rect key="frame" x="185.5" y="0.0" width="189.5" height="73"/>
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="整理整頓">
@@ -1504,11 +1495,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xOU-2N-FgQ">
-                                        <rect key="frame" x="0.0" y="322.5" width="375" height="73.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="xOU-2N-FgQ">
+                                        <rect key="frame" x="0.0" y="313" width="375" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFk-Fd-BXk">
-                                                <rect key="frame" x="0.0" y="0.0" width="315" height="73.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="321" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="インスピレーション・直感">
@@ -1519,7 +1510,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZk-GC-IM4">
-                                                <rect key="frame" x="320" y="0.0" width="55" height="73.5"/>
+                                                <rect key="frame" x="321" y="0.0" width="54" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="秩序">
@@ -1532,16 +1523,16 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="身体的幸福" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ckb-pG-oxd">
-                                        <rect key="frame" x="0.0" y="396" width="375" height="51.5"/>
+                                        <rect key="frame" x="0.0" y="384" width="375" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JeW-pz-Bou">
-                                        <rect key="frame" x="0.0" y="447.5" width="375" height="73"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="JeW-pz-Bou">
+                                        <rect key="frame" x="0.0" y="434" width="375" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpI-Ae-Z0b">
-                                                <rect key="frame" x="0.0" y="0.0" width="71" height="73"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="空気">
@@ -1552,7 +1543,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dht-u2-DyT">
-                                                <rect key="frame" x="76" y="0.0" width="108" height="73"/>
+                                                <rect key="frame" x="75" y="0.0" width="113.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="食べ物">
@@ -1563,7 +1554,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekx-1v-Ebt">
-                                                <rect key="frame" x="189" y="0.0" width="186" height="73"/>
+                                                <rect key="frame" x="188.5" y="0.0" width="186.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="活動・運動">
@@ -1575,11 +1566,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="e0k-Zh-Lyk">
-                                        <rect key="frame" x="0.0" y="520.5" width="375" height="73.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="e0k-Zh-Lyk">
+                                        <rect key="frame" x="0.0" y="505" width="375" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u59-8U-O04">
-                                                <rect key="frame" x="0.0" y="0.0" width="138" height="73.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="144" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="休息・睡眠">
@@ -1590,7 +1581,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZX-0m-lw3">
-                                                <rect key="frame" x="143" y="0.0" width="111" height="73.5"/>
+                                                <rect key="frame" x="144" y="0.0" width="115.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="性的表現">
@@ -1601,7 +1592,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heo-gf-tB7">
-                                                <rect key="frame" x="259" y="0.0" width="116" height="73.5"/>
+                                                <rect key="frame" x="259.5" y="0.0" width="115.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="身の安全">
@@ -1613,11 +1604,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="V91-2Z-M3E">
-                                        <rect key="frame" x="0.0" y="594" width="375" height="73"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="V91-2Z-M3E">
+                                        <rect key="frame" x="0.0" y="576" width="375" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IvE-RR-X0V">
-                                                <rect key="frame" x="0.0" y="0.0" width="123.5" height="73"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="131.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="住まい">
@@ -1628,7 +1619,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11I-x0-VkB">
-                                                <rect key="frame" x="128.5" y="0.0" width="163.5" height="73"/>
+                                                <rect key="frame" x="131.5" y="0.0" width="173" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="ふれあい">
@@ -1639,7 +1630,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYc-sP-lvd">
-                                                <rect key="frame" x="297" y="0.0" width="78" height="73"/>
+                                                <rect key="frame" x="304.5" y="0.0" width="70.5" height="71"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="水">
@@ -1656,10 +1647,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="uag-Yz-FEF" firstAttribute="width" secondItem="KYN-34-WiV" secondAttribute="width" id="3UA-Em-Dwe"/>
-                            <constraint firstItem="uag-Yz-FEF" firstAttribute="height" secondItem="KYN-34-WiV" secondAttribute="height" id="RTN-UR-MzP"/>
-                            <constraint firstItem="uag-Yz-FEF" firstAttribute="leading" secondItem="820-9F-VC3" secondAttribute="leading" id="dE6-og-QZ5"/>
-                            <constraint firstItem="uag-Yz-FEF" firstAttribute="top" secondItem="KYN-34-WiV" secondAttribute="top" id="egJ-YG-i9U"/>
+                            <constraint firstItem="uag-Yz-FEF" firstAttribute="height" secondItem="820-9F-VC3" secondAttribute="height" id="FIC-to-Zk8"/>
+                            <constraint firstItem="uag-Yz-FEF" firstAttribute="width" secondItem="820-9F-VC3" secondAttribute="width" id="gsr-C9-PRJ"/>
+                            <constraint firstItem="uag-Yz-FEF" firstAttribute="top" secondItem="820-9F-VC3" secondAttribute="top" id="jYs-mw-j83"/>
+                            <constraint firstItem="uag-Yz-FEF" firstAttribute="leading" secondItem="820-9F-VC3" secondAttribute="leading" id="xGC-fH-1Si"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="820-9F-VC3"/>
                     </view>
@@ -1700,19 +1691,19 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="OUR-wk-ZOh">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="意味" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61R-U9-5Rw">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="39.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="38.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ngJ-Mp-N6A">
-                                        <rect key="frame" x="0.0" y="39.5" width="375" height="58.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ngJ-Mp-N6A">
+                                        <rect key="frame" x="0.0" y="38.5" width="375" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnw-Ed-Gj1">
-                                                <rect key="frame" x="0.0" y="0.0" width="88" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="94" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="自覚">
@@ -1723,7 +1714,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZe-Nh-WWX">
-                                                <rect key="frame" x="93" y="0.0" width="175.5" height="58.5"/>
+                                                <rect key="frame" x="94" y="0.0" width="187.5" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="命の祝福">
@@ -1734,7 +1725,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVK-7c-VVa">
-                                                <rect key="frame" x="273.5" y="0.0" width="101.5" height="58.5"/>
+                                                <rect key="frame" x="281.5" y="0.0" width="93.5" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="挑戦">
@@ -1746,11 +1737,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="47k-gR-LgT">
-                                        <rect key="frame" x="0.0" y="98" width="375" height="59"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="47k-gR-LgT">
+                                        <rect key="frame" x="0.0" y="95.5" width="375" height="56.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEt-EI-WZ9">
-                                                <rect key="frame" x="0.0" y="0.0" width="84" height="59"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="87.5" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="明晰さ">
@@ -1761,7 +1752,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YhB-S9-ApF">
-                                                <rect key="frame" x="89" y="0.0" width="220.5" height="59"/>
+                                                <rect key="frame" x="87.5" y="0.0" width="229.5" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="頭を整理すること">
@@ -1772,7 +1763,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eik-mW-8cO">
-                                                <rect key="frame" x="314.5" y="0.0" width="60.5" height="59"/>
+                                                <rect key="frame" x="317" y="0.0" width="58" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="能力">
@@ -1784,11 +1775,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SE5-zS-3L6">
-                                        <rect key="frame" x="0.0" y="157" width="375" height="58.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="SE5-zS-3L6">
+                                        <rect key="frame" x="0.0" y="152" width="375" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSu-c6-Vo0">
-                                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="53.5" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="意識">
@@ -1799,7 +1790,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzj-B4-ILt">
-                                                <rect key="frame" x="56.5" y="0.0" width="231.5" height="58.5"/>
+                                                <rect key="frame" x="53.5" y="0.0" width="240.5" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="貢献・寄与すること">
@@ -1810,7 +1801,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRz-UI-QTV">
-                                                <rect key="frame" x="293" y="0.0" width="82" height="58.5"/>
+                                                <rect key="frame" x="294" y="0.0" width="81" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="創造性">
@@ -1822,11 +1813,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wSr-13-0jk">
-                                        <rect key="frame" x="0.0" y="215.5" width="375" height="58.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="wSr-13-0jk">
+                                        <rect key="frame" x="0.0" y="209" width="375" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bmx-3A-ctl">
-                                                <rect key="frame" x="0.0" y="0.0" width="99" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="106.5" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="発見">
@@ -1837,7 +1828,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UE-Sr-H3w">
-                                                <rect key="frame" x="104" y="0.0" width="99" height="58.5"/>
+                                                <rect key="frame" x="106.5" y="0.0" width="107" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="探求">
@@ -1848,7 +1839,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAW-ua-P2U">
-                                                <rect key="frame" x="208" y="0.0" width="167" height="58.5"/>
+                                                <rect key="frame" x="213.5" y="0.0" width="161.5" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="有効性">
@@ -1860,11 +1851,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GnR-2w-Z6E">
-                                        <rect key="frame" x="0.0" y="274" width="375" height="58.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="GnR-2w-Z6E">
+                                        <rect key="frame" x="0.0" y="266" width="375" height="56.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8G-SV-rPJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="161.5" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="効率性">
@@ -1875,7 +1866,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DX3-9q-z0M">
-                                                <rect key="frame" x="155" y="0.0" width="99" height="58.5"/>
+                                                <rect key="frame" x="161.5" y="0.0" width="107" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="成長">
@@ -1886,7 +1877,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvD-ac-3dS">
-                                                <rect key="frame" x="259" y="0.0" width="116" height="58.5"/>
+                                                <rect key="frame" x="268.5" y="0.0" width="106.5" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="希望">
@@ -1898,11 +1889,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EXR-z4-jGm">
-                                        <rect key="frame" x="0.0" y="332.5" width="375" height="58.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="EXR-z4-jGm">
+                                        <rect key="frame" x="0.0" y="322.5" width="375" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpO-ma-VW3">
-                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="学び">
@@ -1913,7 +1904,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8VB-IO-JWp">
-                                                <rect key="frame" x="119.5" y="0.0" width="115" height="58.5"/>
+                                                <rect key="frame" x="125" y="0.0" width="125" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="参加">
@@ -1924,7 +1915,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcG-yn-W3h">
-                                                <rect key="frame" x="239.5" y="0.0" width="135.5" height="58.5"/>
+                                                <rect key="frame" x="250" y="0.0" width="125" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="目的">
@@ -1936,11 +1927,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Esf-9x-ybX">
-                                        <rect key="frame" x="0.0" y="391" width="375" height="59"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Esf-9x-ybX">
+                                        <rect key="frame" x="0.0" y="379.5" width="375" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkO-wq-vV9">
-                                                <rect key="frame" x="0.0" y="0.0" width="175.5" height="59"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="自己表現">
@@ -1951,7 +1942,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaL-Xk-Vvd">
-                                                <rect key="frame" x="180.5" y="0.0" width="88" height="59"/>
+                                                <rect key="frame" x="187.5" y="0.0" width="94" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="刺激">
@@ -1962,7 +1953,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjQ-8j-3eG">
-                                                <rect key="frame" x="273.5" y="0.0" width="101.5" height="59"/>
+                                                <rect key="frame" x="281.5" y="0.0" width="93.5" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="理解">
@@ -1974,11 +1965,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vA0-RB-hl8">
-                                        <rect key="frame" x="0.0" y="450" width="375" height="58.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="vA0-RB-hl8">
+                                        <rect key="frame" x="0.0" y="436.5" width="375" height="56.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoK-hy-HQw">
-                                                <rect key="frame" x="0.0" y="0.0" width="175.5" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="流れ">
@@ -1989,7 +1980,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xT9-tg-YqA">
-                                                <rect key="frame" x="180.5" y="0.0" width="194.5" height="58.5"/>
+                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="超越">
@@ -2002,16 +1993,16 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自主・自立" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qem-fi-yie">
-                                        <rect key="frame" x="0.0" y="508.5" width="375" height="41.5"/>
+                                        <rect key="frame" x="0.0" y="493" width="375" height="40.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6Cp-hD-Kf4">
-                                        <rect key="frame" x="0.0" y="550" width="375" height="58.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="6Cp-hD-Kf4">
+                                        <rect key="frame" x="0.0" y="533.5" width="375" height="56.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGq-lz-bWy">
-                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="選択">
@@ -2022,7 +2013,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXe-gY-91D">
-                                                <rect key="frame" x="119.5" y="0.0" width="115" height="58.5"/>
+                                                <rect key="frame" x="125" y="0.0" width="125" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="自由">
@@ -2033,7 +2024,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPe-lv-wMy">
-                                                <rect key="frame" x="239.5" y="0.0" width="135.5" height="58.5"/>
+                                                <rect key="frame" x="250" y="0.0" width="125" height="56.5"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="独立">
@@ -2045,11 +2036,11 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="uLJ-06-AcN">
-                                        <rect key="frame" x="0.0" y="608.5" width="375" height="58.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="uLJ-06-AcN">
+                                        <rect key="frame" x="0.0" y="590" width="375" height="57"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="033-4V-FAw">
-                                                <rect key="frame" x="0.0" y="0.0" width="225.5" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="233" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="空間・余裕">
@@ -2060,7 +2051,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxf-Dg-g8J">
-                                                <rect key="frame" x="230.5" y="0.0" width="144.5" height="58.5"/>
+                                                <rect key="frame" x="233" y="0.0" width="142" height="57"/>
                                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="自発性">
@@ -2077,10 +2068,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="OUR-wk-ZOh" firstAttribute="width" secondItem="5M1-wn-z4J" secondAttribute="width" id="Df6-CE-IMq"/>
                             <constraint firstItem="OUR-wk-ZOh" firstAttribute="leading" secondItem="0xT-0a-ZZJ" secondAttribute="leading" id="Ioh-n3-hHV"/>
-                            <constraint firstItem="OUR-wk-ZOh" firstAttribute="top" secondItem="5M1-wn-z4J" secondAttribute="top" id="S42-EF-BWt"/>
-                            <constraint firstItem="OUR-wk-ZOh" firstAttribute="height" secondItem="5M1-wn-z4J" secondAttribute="height" id="crS-Jn-31I"/>
+                            <constraint firstItem="OUR-wk-ZOh" firstAttribute="width" secondItem="0xT-0a-ZZJ" secondAttribute="width" id="eEO-Ry-fI8"/>
+                            <constraint firstItem="OUR-wk-ZOh" firstAttribute="height" secondItem="0xT-0a-ZZJ" secondAttribute="height" id="kVL-DT-t3F"/>
+                            <constraint firstItem="OUR-wk-ZOh" firstAttribute="top" secondItem="0xT-0a-ZZJ" secondAttribute="top" id="klN-ef-6F9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0xT-0a-ZZJ"/>
                     </view>
@@ -2344,8 +2335,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="YCM-eT-Rw1"/>
         <segue reference="EAF-3j-oSI"/>
-        <segue reference="OT3-of-20H"/>
-        <segue reference="wkO-fM-cK8"/>
-        <segue reference="nzA-Zd-Jrx"/>
+        <segue reference="Zzy-33-mBp"/>
+        <segue reference="EQN-U8-Afb"/>
+        <segue reference="fw6-39-4I7"/>
     </inferredMetricsTieBreakers>
 </document>
